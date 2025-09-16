@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\kvizoldal\\KvizApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D20D0C8-41DB-46C9-BF01-2ACE0F5641CB}|KvizLib\\KvizLib.csproj|d:\\github\\kvizoldal\\kvizapp\\kvizlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D20D0C8-41DB-46C9-BF01-2ACE0F5641CB}|KvizLib\\KvizLib.csproj|solutionrelative:kvizlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1BC913-577C-4B41-BBF3-7F547358DED0}|KvizApp\\KvizApp.csproj|d:\\github\\kvizoldal\\kvizapp\\kvizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1BC913-577C-4B41-BBF3-7F547358DED0}|KvizApp\\KvizApp.csproj|solutionrelative:kvizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\GitHub\\kvizoldal\\KvizApp\\KvizLib\\Class1.cs",
+              "RelativeDocumentMoniker": "KvizLib\\Class1.cs",
+              "ToolTip": "D:\\GitHub\\kvizoldal\\KvizApp\\KvizLib\\Class1.cs",
+              "RelativeToolTip": "KvizLib\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T11:48:23.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\kvizoldal\\KvizApp\\KvizApp\\Program.cs",
+              "RelativeDocumentMoniker": "KvizApp\\Program.cs",
+              "ToolTip": "D:\\GitHub\\kvizoldal\\KvizApp\\KvizApp\\Program.cs",
+              "RelativeToolTip": "KvizApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T11:48:04.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

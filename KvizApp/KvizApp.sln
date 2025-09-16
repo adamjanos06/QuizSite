@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KvizApp", "KvizApp\KvizApp.csproj", "{2E1BC913-577C-4B41-BBF3-7F547358DED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KvizLib", "KvizLib\KvizLib.csproj", "{0D20D0C8-41DB-46C9-BF01-2ACE0F5641CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1BC913-577C-4B41-BBF3-7F547358DED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1BC913-577C-4B41-BBF3-7F547358DED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1BC913-577C-4B41-BBF3-7F547358DED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1BC913-577C-4B41-BBF3-7F547358DED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D20D0C8-41DB-46C9-BF01-2ACE0F5641CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D20D0C8-41DB-46C9-BF01-2ACE0F5641CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D20D0C8-41DB-46C9-BF01-2ACE0F5641CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D20D0C8-41DB-46C9-BF01-2ACE0F5641CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
