@@ -1,0 +1,83 @@
+$primary-color: #4CAF50;
+$secondary-color: #2196F3;
+$bg-color: #f4f4f4;
+$text-color: #333;
+$button-radius: 5px;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $bg-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $primary-color;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    background-color: $secondary-color;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: $button-radius;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+.categories {
+  background: white;
+  padding: 1rem;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+
+    .category {
+      background: $primary-color;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: $button-radius;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.options {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+
+  .option {
+    background-color: $secondary-color;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: $button-radius;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+#message {
+  padding: 1rem;
+  font-weight: bold;
+}

@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiztopia</title>
+  <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-    
+  <header>
+    <h1>Quiztopia</h1>
+    <button id="addCategoryBtn">Új kategória hozzáadása</button>
+  </header>
+
+  <section class="categories">
+    <ul id="categoryList">
+      <li class="category">Mate</li>
+      <li class="category">Irodalom</li>
+    </ul>
+  </section>
+
+  <section class="options">
+    <button class="option" id="flashcardsBtn">Tanulás (flashcards)</button>
+    <button class="option" id="quizBtn">ABCD kvízjáték</button>
+    <button class="option" id="addQuestionBtn">Új kérdés hozzáadása</button>
+  </section>
+
+  <section id="message"></section>
+
+  <script src="../JS/index.js"></script>
 </body>
 </html>

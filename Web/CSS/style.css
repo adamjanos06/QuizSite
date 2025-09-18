@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header button:hover {
+  opacity: 0.9;
+}
+
+.categories {
+  background: white;
+  padding: 1rem;
+}
+.categories ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+}
+.categories ul .category {
+  background: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.categories ul .category:hover {
+  opacity: 0.8;
+}
+
+.options {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.options .option {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.options .option:hover {
+  opacity: 0.9;
+}
+
+#message {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
