@@ -12,14 +12,6 @@
 /dataSources/
 /dataSources.local.xml
 /.idea/
-/DnDHelperConsole/bin/
-/DnDHelperConsole/obj/
-/DnDHelperLib/bin/
-/DnDHelperLib/obj/
-/DnDHelperTests/bin/
-/DnDHelperTests/obj/
-/DnDHelperWPF/bin/
-/DnDHelperWPF/obj/
 
 syntax: glob
 
