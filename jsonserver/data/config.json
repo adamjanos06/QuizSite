@@ -1,0 +1,16 @@
+{
+    "timestamps": false,
+    "relationships":[
+        {
+            "source": "boards",
+            "destination": "cards",
+            "type": "hasMany"
+        },
+        {
+            "source": "cards",
+            "destination": "boards",
+            "type": "belongsTo"
+        }
+        
+    ]
+}

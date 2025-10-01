@@ -1,0 +1,32 @@
+{
+  "boards": [
+    {
+      "id": "1",
+      "title": "példa tábla"
+    },
+    {
+      "id": "2",
+      "title": "példa tábla2"
+    }
+  ],
+  "cards": [
+    {
+      "question": "anyád?",
+      "answerCorrect": "igen",
+      "answerFalse1": "nem",
+      "answerFalse2": "talán",
+      "answerFalse3": "anyád!",
+      "board_id": "1",
+      "id": "nuySDCd"
+    },
+    {
+      "question": "ez a második táblán van?",
+      "answerCorrect": "igen",
+      "answerFalse1": "nem",
+      "answerFalse2": "talán",
+      "answerFalse3": "lehetséges",
+      "board_id": "2",
+      "id": "VYsRtan"
+    }
+  ]
+}
