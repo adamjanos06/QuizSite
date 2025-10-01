@@ -7,26 +7,40 @@
   <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-  <header>
-    <h1>Quiztopia</h1>
-    <button id="addCategoryBtn">Új kategória hozzáadása</button>
-  </header>
+  <main>
+    <header class="quiz-header">
+            <h1>Quiztopia</h1>
+        </header>
 
-  <section class="categories">
-    <ul id="categoryList">
-      <li class="category">Mate</li>
-      <li class="category">Irodalom</li>
-    </ul>
-  </section>
+    <section class="category-section">
+            <div class="category-carousel">
+                <button class="carousel-btn prev">&lt;</button>
+                
+                <div class="category-cards">
+                    <div class="category-card">
+                        <img src="assets/background.jpeg" alt="Történelem Quiz">
+                        <span>Töri quiz</span>
+                    </div>
+                    <div class="category-card">
+                        <img src="assets/background.jpeg" alt="Sport Quiz">
+                        <span>Sport quiz</span>
+                    </div>
+                    <div class="category-card">
+                        <img src="assets/background.jpeg" alt="Matek Quiz">
+                        <span>Matek quiz</span>
+                    </div>
+                    <div class="category-card">
+                        <img src="assets/background.jpeg" alt="Nyelv Quiz">
+                        <span>Nyelv quiz</span>
+                    </div>
+                </div>
 
-  <section class="options">
-    <button class="option" id="flashcardsBtn">Tanulás (flashcards)</button>
-    <button class="option" id="quizBtn">ABCD kvízjáték</button>
-    <button class="option" id="addQuestionBtn">Új kérdés hozzáadása</button>
-  </section>
+                <button class="carousel-btn next">&gt;</button>
+            </div>
 
-  <section id="message"></section>
-
+            <button class="add-category-btn">Kategória hozzáadása</button>
+        </section>
+  </main>
   <script src="../JS/index.js"></script>
 </body>
 </html>

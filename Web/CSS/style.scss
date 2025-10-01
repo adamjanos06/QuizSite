@@ -1,83 +1,115 @@
-$primary-color: #4CAF50;
-$secondary-color: #2196F3;
-$bg-color: #f4f4f4;
-$text-color: #333;
-$button-radius: 5px;
+@use "sass:color";
+$primary-color: #6c63ff;
+$secondary-color: #00c4b3;
+$text-color: #ffffff;
+$card-bg: rgba(255, 255, 255, 0.1);
+$card-radius: 10px;
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: $bg-color;
-  color: $text-color;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('../Assets/Background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: $text-color;
 }
 
-header {
-  background-color: $primary-color;
-  color: white;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  button {
-    background-color: $secondary-color;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: $button-radius;
-    cursor: pointer;
-
-    &:hover {
-      opacity: 0.9;
-    }
-  }
-}
-
-.categories {
-  background: white;
-  padding: 1rem;
-
-  ul {
+.quiz-container {
     display: flex;
-    list-style: none;
-    gap: 1rem;
-    padding: 0;
-
-    .category {
-      background: $primary-color;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: $button-radius;
-      cursor: pointer;
-
-      &:hover {
-        opacity: 0.8;
-      }
-    }
-  }
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
 }
 
-.options {
-  display: flex;
-  gap: 1rem;
-  padding: 1rem;
-
-  .option {
-    background-color: $secondary-color;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: $button-radius;
-    cursor: pointer;
-
-    &:hover {
-      opacity: 0.9;
-    }
-  }
+.quiz-header h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
-#message {
-  padding: 1rem;
-  font-weight: bold;
+.category-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .category-carousel {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        max-width: 1200px;
+        margin-bottom: 2rem;
+
+        .carousel-btn {
+            background: $primary-color;
+            border: none;
+            color: $text-color;
+            padding: 0.5rem 1rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: $card-radius;
+        }
+
+        .category-cards {
+            display: flex;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            margin: 0 1rem;
+            gap: 1rem;
+
+            .category-card {
+                min-width: 150px;
+                background: $card-bg;
+                border-radius: $card-radius;
+                text-align: center;
+                padding: 1rem;
+                flex-shrink: 0;
+                cursor: pointer;
+                transition: transform 0.2s;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+
+                img {
+                    width: 100%;
+                    border-radius: $card-radius;
+                    margin-bottom: 0.5rem;
+                }
+
+                span {
+                    display: block;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .add-category-btn {
+        background: $secondary-color;
+        border: none;
+        color: $text-color;
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border-radius: $card-radius;
+        cursor: pointer;
+        transition: background 0.3s;
+
+        &:hover {
+            background: color.adjust($secondary-color, $lightness: -10%);
+        }
+    }
+}
+
+/* Reszponzív beállítások */
+@media (max-width: 768px) {
+    .category-carousel {
+        .category-cards {
+            min-width: 100px;
+        }
+    }
+
+    .quiz-header h1 {
+        font-size: 2rem;
+    }
 }
