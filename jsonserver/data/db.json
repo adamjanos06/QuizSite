@@ -1,45 +1,40 @@
 {
   "boards": [
     {
-      "id": "1",
-      "title": "példa tábla"
-    },
-    {
-      "id": "2",
-      "title": "példa tábla2"
-    },
-    {
-      "title": "Teszt",
-      "imgURL": null,
-      "color": "#b446a8",
-      "id": "ize1Jpk",
-      "cards": []
-    },
-    {
       "title": "Matek",
       "imgURL": null,
       "color": "#0df76c",
       "id": "b2qBt7S"
+    },
+    {
+      "title": "Földrajz",
+      "imgURL": null,
+      "color": "#784a44",
+      "id": "nolUYPd"
     }
   ],
   "cards": [
     {
-      "question": "anyád?",
-      "answerCorrect": "igen",
-      "answerFalse1": "nem",
-      "answerFalse2": "talán",
-      "answerFalse3": "anyád!",
-      "board_id": "1",
-      "id": "nuySDCd"
+      "question": "Mi Magyarország fővárosa?",
+      "answers": [
+        "Budapest",
+        "Bécs",
+        "Pozsony",
+        "Debrecen"
+      ],
+      "board_id": null,
+      "id": "N6ZrKdc"
     },
     {
-      "question": "ez a második táblán van?",
-      "answerCorrect": "igen",
-      "answerFalse1": "nem",
-      "answerFalse2": "talán",
-      "answerFalse3": "lehetséges",
-      "board_id": "2",
-      "id": "VYsRtan"
+      "question": "Melyik ország alakja hasonlít egy csizmára?",
+      "answers": [
+        "Olaszország",
+        "Spanyolország",
+        "Görögország",
+        "Franciaország"
+      ],
+      "board_id": ":nolUYPd",
+      "id": "ieh-VBM"
     }
   ]
 }

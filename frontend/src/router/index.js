@@ -14,6 +14,11 @@ export const router = createRouter({
       }
     },
     {
+      path: '/add-card/:boardId',
+      name: 'add-card',
+      component: () => import('@/pages/add-card.vue')
+    },
+    {
       path:"/",
       name:"index",
       component:()=>import("@pages/index.vue"),
