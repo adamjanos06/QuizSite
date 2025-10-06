@@ -13,9 +13,3 @@ const counter = useCounter()
     </button>
   </BaseLayout>
 </template>
-
-<route lang="yaml">
-name: index
-meta:
-  title: Főoldal
-</route>

@@ -7,6 +7,19 @@
     {
       "id": "2",
       "title": "példa tábla2"
+    },
+    {
+      "title": "Teszt",
+      "imgURL": null,
+      "color": "#b446a8",
+      "id": "ize1Jpk",
+      "cards": []
+    },
+    {
+      "title": "Matek",
+      "imgURL": null,
+      "color": "#0df76c",
+      "id": "b2qBt7S"
     }
   ],
   "cards": [

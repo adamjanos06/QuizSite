@@ -6,18 +6,18 @@ import { ref } from 'vue'
 import axios from 'axios'
 import { useRouter } from 'vue-router'
 
-const boardStore = useBoardStore()
 const router = useRouter()
 
 const title = ref('')
 const imgURL = ref('')
-const color = "#000000"
+var color = "#000000"
 
 function createBoard() {
   if (!title.value) return alert('Title is required')
 
-  const finalColor = color === '#000000' ? randomColor() : color
-  boardStore.addBoard({title, imgURL, finalColor})
+  const finalColor = color.toString() === '#000000' ? randomColor() : color.toString()
+  const finalImgURL = imgURL.value === "" ? null : imgURL
+  useBoardStore().addBoard(title.value, finalImgURL, finalColor)
 
   router.push({ name: 'index' })
 }
@@ -41,14 +41,9 @@ function createBoard() {
         <input v-model="color" type="color"/>
         <p class="text-sm text-gray-500">Ha nem választasz színt, véletlenszerűt kap.</p>
       </div>
-      <button @click="submitBoard" class="bg-blue-500 text-white rounded py-2 px-4 w-full">
+      <button @click="createBoard()" class="bg-blue-500 text-white rounded py-2 px-4 w-full">
         Tábla létrehozása
       </button>
     </div>
   </BaseLayout>
 </template>
-<route lang="yaml">
-name: add-board
-meta:
-  title: Új Tábla
-</route>
