@@ -11,6 +11,26 @@
       "imgURL": null,
       "color": "#784a44",
       "id": "nolUYPd"
+    },
+    {
+      "title": "Sport",
+      "imgURL": null,
+      "color": "#5c800f",
+      "id": "CZOtped",
+      "cards": []
+    },
+    {
+      "title": "Nyelv",
+      "imgURL": null,
+      "color": "#5c224b",
+      "id": "9OkzXmT",
+      "cards": []
+    },
+    {
+      "title": "Star Wars",
+      "imgURL": null,
+      "color": "#f9171d",
+      "id": "kGYfw59"
     }
   ],
   "cards": [
