@@ -4,11 +4,12 @@ import { router } from '@/router/index.js'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 import { plugin, defaultConfig } from '@formkit/vue'
 
-import App from '@/App.vue'
+// Change this line:
+import IndexPage from '@/pages/index.vue' // <-- import your index.vue
 
 import '@assets/main.css'
 
-createApp(App)
+createApp(IndexPage) // <-- use IndexPage instead of App
   .use(createPinia().use(piniaPluginPersistedstate))
   .use(router)
   .use(plugin, defaultConfig)

@@ -15,7 +15,7 @@ class CardController extends Controller
         $newCard = [
             'question' => $request->input('question'),
             'answers' => $request->input('answers'), // array: correct first
-            'board_id' => $request->input('board_id') // ensure board_id is included
+            'board_id' => ltrim($request->input('board_id'), ':') // ensure board_id is included
         ];
 
         $response = Http::post($this->baseUrl . '/cards', $newCard);

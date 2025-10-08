@@ -131,5 +131,8 @@ const GetDestinationArray = destination => router.db.toPlainObject()['__wrapped_
 const SetSingularItem = (item, destination, value) => item[pluralize.singular(destination)] = value
 const SetPluralItem = (item, destination, value) => item[destination] = value
 
-const Filter = (array, src, foreignKey, primaryKey) => array.filter(dest => parseInt(dest[foreignKey]) === parseInt(src[primaryKey]))
-const Find = (array, src, foreignKey, primaryKey) => array.find(dest => parseInt(dest[foreignKey]) === parseInt(src[primaryKey]))
+const Filter = (array, src, foreignKey, primaryKey) =>
+  array.filter(dest => (dest[foreignKey] || '').replace(/^:/, '') === (src[primaryKey] || ''))
+
+const Find = (array, src, foreignKey, primaryKey) =>
+  array.find(dest => (dest[foreignKey] || '').replace(/^:/, '') === (src[primaryKey] || ''))

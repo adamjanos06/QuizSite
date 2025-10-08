@@ -9,8 +9,8 @@
     {
       "title": "Földrajz",
       "imgURL": null,
-      "color": "#3b82f6",
-      "id": "3"
+      "color": "#784a44",
+      "id": "nolUYPd"
     }
   ],
   "cards": [
@@ -22,125 +22,129 @@
         "Pozsony",
         "Debrecen"
       ],
-      "board_id": null,
+      "board_id": "nolUYPd",
       "id": "N6ZrKdc"
     },
     {
-      "question": "ez a második táblán van?",
-      "answerCorrect": "igen",
-      "answerFalse1": "nem",
-      "answerFalse2": "talán",
-      "answerFalse3": "lehetséges",
-      "board_id": "2",
-      "id": "VYsRtan"
-    },
-    {
-      "question": "Mi Magyarország fővárosa?",
-      "answerCorrect": "Budapest",
-      "answerFalse1": "Bécs",
-      "answerFalse2": "Pozsony",
-      "answerFalse3": "Debrecen",
-      "board_id": "1",
-      "id": "Q1"
-    },
-    {
       "question": "Melyik ország alakja hasonlít egy csizmára?",
-      "answerCorrect": "Olaszország",
-      "answerFalse1": "Spanyolország",
-      "answerFalse2": "Görögország",
-      "answerFalse3": "Franciaország",
-      "board_id": "1",
-      "id": "Q2"
+      "answers": [
+        "Olaszország",
+        "Spanyolország",
+        "Görögország",
+        "Franciaország"
+      ],
+      "board_id": "nolUYPd",
+      "id": "ieh-VBM"
     },
     {
       "question": "Melyik a világ legnagyobb sivataga?",
-      "answerCorrect": "Antarktiszi-sivatag",
-      "answerFalse1": "Sivatag Szahara",
-      "answerFalse2": "Góbisivatag",
-      "answerFalse3": "Kalahári-sivatag",
-      "board_id": "1",
-      "id": "Q3"
+      "answers": [
+        "Antarktiszi-sivatag",
+        "Kalahári-sivatag",
+        "Góbisivatag",
+        "Sivatag Szahara"
+      ],
+      "board_id": "nolUYPd",
+      "id": "0x3BPQZ"
     },
     {
       "question": "Melyik a világ leghosszabb folyója?",
-      "answerCorrect": "Nílus",
-      "answerFalse1": "Amazonas",
-      "answerFalse2": "Jangce",
-      "answerFalse3": "Mississippi",
-      "board_id": "1",
-      "id": "Q4"
+      "answers": [
+        "Nílus",
+        "Amazonas",
+        "Jangce",
+        "Mississippi"
+      ],
+      "board_id": "nolUYPd",
+      "id": "JNqhSCX"
     },
     {
       "question": "Melyik országban található a Taj Mahal?",
-      "answerCorrect": "India",
-      "answerFalse1": "Nepál",
-      "answerFalse2": "Pakisztán",
-      "answerFalse3": "Irán",
-      "board_id": "1",
-      "id": "Q5"
+      "answers": [
+        "India",
+        "Nepál",
+        "Pakisztán",
+        "Irán"
+      ],
+      "board_id": "nolUYPd",
+      "id": "7NKcE_5"
     },
     {
       "question": "Melyik országban van a legtöbb sziget a világon?",
-      "answerCorrect": "Svédország",
-      "answerFalse1": "Norvégia",
-      "answerFalse2": "Indonézia",
-      "answerFalse3": "Fülöp-szigetek",
-      "board_id": "1",
-      "id": "Q6"
+      "answers": [
+        "Svédország",
+        "Norvégia",
+        "Indonézia",
+        "Fülöp-szigetek"
+      ],
+      "board_id": "nolUYPd",
+      "id": "jblHZEi"
     },
     {
       "question": "Melyik várost hívják a 'Szerelem városának'?",
-      "answerCorrect": "Párizs",
-      "answerFalse1": "Róma",
-      "answerFalse2": "Velence",
-      "answerFalse3": "Prága",
-      "board_id": "1",
-      "id": "Q7"
+      "answers": [
+        "Párizs",
+        "Róma",
+        "Velence",
+        "Prága"
+      ],
+      "board_id": "nolUYPd",
+      "id": "bsdT1c4"
     },
     {
       "question": "Melyik országban van a világ legnagyobb területű esőerdeje?",
-      "answerCorrect": "Brazília",
-      "answerFalse1": "Kongó",
-      "answerFalse2": "Indonézia",
-      "answerFalse3": "Peru",
-      "board_id": "1",
-      "id": "Q8"
+      "answers": [
+        "Brazília",
+        "Kongó",
+        "Indonézia",
+        "Peru"
+      ],
+      "board_id": "nolUYPd",
+      "id": "GJ0w8XL"
     },
     {
       "question": "Melyik kontinensen található a Viktória-vízesés?",
-      "answerCorrect": "Afrika",
-      "answerFalse1": "Ázsia",
-      "answerFalse2": "Dél-Amerika",
-      "answerFalse3": "Ausztrália",
-      "board_id": "1",
-      "id": "Q9"
+      "answers": [
+        "Afrika",
+        "Ázsia",
+        "Dél-Amerika",
+        "Ausztrália"
+      ],
+      "board_id": "nolUYPd",
+      "id": "0R3RWiC"
     },
     {
       "question": "Melyik ország fővárosa Athén?",
-      "answerCorrect": "Görögország",
-      "answerFalse1": "Törökország",
-      "answerFalse2": "Ciprus",
-      "answerFalse3": "Albánia",
-      "board_id": "1",
-      "id": "Q10"
+      "answers": [
+        "Görögország",
+        "Törökország",
+        "Ciprus",
+        "Albánia"
+      ],
+      "board_id": "nolUYPd",
+      "id": "keB39xf"
     },
     {
       "question": "Melyik ország zászlaján található juharlevél?",
-      "answerCorrect": "Kanada",
-      "answerFalse1": "Ausztrália",
-      "answerFalse2": "Új-Zéland",
-      "answerFalse3": "Amerikai Egyesült Államok",
-      "board_id": "1",
-      "id": "Q11"
+      "answers": [
+        "Kanada",
+        "Ausztrália",
+        "Új-Zéland",
+        "Amerikai Egyesült Államok"
+      ],
+      "board_id": "nolUYPd",
+      "id": "EItah4b"
     },
     {
       "question": "Melyik várost nevezik a 'sivatag gyöngyszemének'?",
-      "answerCorrect": "Dubai",
-      "answerFalse1": "Las Vegas",
-      "answerFalse2": "Kairó",
-      "answerFalse3": "Doha",
-      "board_id": "1",
-      "id": "Q12"
+      "answers": [
+        "Dubai",
+        "Las Vegas",
+        "Kairó",
+        "Doha"
+      ],
+      "board_id": "nolUYPd",
+      "id": "oWE9F7p"
     }
   ]
 }
