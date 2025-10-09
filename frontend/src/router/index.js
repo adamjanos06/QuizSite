@@ -36,6 +36,22 @@ export const router = createRouter({
       meta:{
         title:"Board index"
       }
+    },
+    {
+      path: '/flashcards/:boardId',
+      name: 'flashcards',
+      component: () => import('@/pages/flashcards.vue'),
+      meta:{
+        title:"Flashcards"
+      }
+    },
+    {
+      path: '/quiz/:boardId',
+      name: 'quiz',
+      component: () => import('@/pages/quiz.vue'),
+      meta:{
+        title:"Quiz game!"
+      }
     }
   ]
 })
