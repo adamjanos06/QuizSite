@@ -33,16 +33,12 @@ function setupInfinite() {
   const cards = container.querySelectorAll('.carousel-card')
   if (cards.length < 2) return
 
-  // measure full step (card width + gap) by difference of offsetLeft of first two cards
   const step = Math.abs(cards[1].offsetLeft - cards[0].offsetLeft) || cards[0].offsetWidth
   const oneCopyWidth = n * step
 
-  // start in the middle (the "original" copy)
   container.scrollLeft = oneCopyWidth
 
-  // scroll listener: when we pass either end, shift by oneCopyWidth to keep user in the middle copy
   onScrollHandler = () => {
-    // small tolerance to avoid float precision issues
     if (container.scrollLeft <= 0) {
       container.scrollLeft += oneCopyWidth
     } else if (container.scrollLeft >= oneCopyWidth * 2 - 1) {
@@ -56,6 +52,10 @@ function setupInfinite() {
 const scrollAmount = 300
 const scrollLeft = () => scrollContainer.value?.scrollBy({ left: -scrollAmount, behavior: 'smooth' })
 const scrollRight = () => scrollContainer.value?.scrollBy({ left: scrollAmount, behavior: 'smooth' })
+
+function openBoard(boardId) {
+  window.location.href = `http://quiztopia.bohoc.quizgame/board/${boardId}`
+}
 </script>
 
 <template>
@@ -82,6 +82,7 @@ const scrollRight = () => scrollContainer.value?.scrollBy({ left: scrollAmount, 
                 :style="board.imgURL
                   ? { backgroundImage: `url(${board.imgURL})`, backgroundSize: 'cover', backgroundPosition: 'center' }
                   : { backgroundColor: board.color || '#666' }"
+                @click="openBoard(board.id)"
               >
                 <div v-if="board.imgURL" class="absolute inset-0 rounded-lg" style="background: rgba(0,0,0,0.3)"></div>
                 <h3 class="z-10 text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">{{ board.title }}</h3>
@@ -94,6 +95,7 @@ const scrollRight = () => scrollContainer.value?.scrollBy({ left: scrollAmount, 
                 :style="board.imgURL
                   ? { backgroundImage: `url(${board.imgURL})`, backgroundSize: 'cover', backgroundPosition: 'center' }
                   : { backgroundColor: board.color || '#666' }"
+                @click="openBoard(board.id)"
               >
                 <div v-if="board.imgURL" class="absolute inset-0 rounded-lg" style="background: rgba(0,0,0,0.3)"></div>
                 <h3 class="z-10 text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">{{ board.title }}</h3>
@@ -106,6 +108,7 @@ const scrollRight = () => scrollContainer.value?.scrollBy({ left: scrollAmount, 
                 :style="board.imgURL
                   ? { backgroundImage: `url(${board.imgURL})`, backgroundSize: 'cover', backgroundPosition: 'center' }
                   : { backgroundColor: board.color || '#666' }"
+                @click="openBoard(board.id)"
               >
                 <div v-if="board.imgURL" class="absolute inset-0 rounded-lg" style="background: rgba(0,0,0,0.3)"></div>
                 <h3 class="z-10 text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">{{ board.title }}</h3>

@@ -16,7 +16,10 @@ export const router = createRouter({
     {
       path: '/add-card/:boardId',
       name: 'add-card',
-      component: () => import('@/pages/add-card.vue')
+      component: () => import('@/pages/add-card.vue'),
+      meta:{
+        title:"Új kártya"
+      }
     },
     {
       path:"/",
@@ -24,6 +27,14 @@ export const router = createRouter({
       component:()=>import("@pages/index.vue"),
       meta:{
         title:"Quiztopia Index"
+      }
+    },
+    {
+      path: '/board/:boardId',
+      name: 'board',
+      component: () => import('@/pages/board.vue'),
+      meta:{
+        title:"Board index"
       }
     }
   ]
