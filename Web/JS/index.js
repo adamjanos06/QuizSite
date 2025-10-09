@@ -1,26 +1,32 @@
-const addCategoryBtn = document.getElementById('addCategoryBtn');
-const categoryList = document.getElementById('categoryList');
-const message = document.getElementById('message');
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollContainer = document.getElementById("scroll-container");
+  const scrollLeftBtn = document.getElementById("scroll-left");
+  const scrollRightBtn = document.getElementById("scroll-right");
 
-addCategoryBtn.addEventListener('click', () => {
-    const categoryName = prompt("Add meg az új kategória nevét:");
-    if(categoryName) {
-        const li = document.createElement('li');
-        li.textContent = categoryName;
-        li.className = 'category';
-        categoryList.appendChild(li);
-        message.textContent = `Átdobva a(z) ${categoryName} kategóriába.`;
+  const scrollAmount = 300;
+
+  // Duplikáljuk a kártyákat (1x balra, 1x jobbra)
+  const cardsHTML = scrollContainer.innerHTML;
+  scrollContainer.innerHTML = cardsHTML + cardsHTML + cardsHTML;
+
+  // Elhelyezzük a scrollt a középső (másolt) részre
+  const oneCopyWidth = scrollContainer.scrollWidth / 3;
+  scrollContainer.scrollLeft = oneCopyWidth;
+
+  // Végtelen hatás: ha elérünk egy szélt, átugrik a középső szakaszra
+  scrollContainer.addEventListener("scroll", () => {
+    if (scrollContainer.scrollLeft <= 0) {
+      scrollContainer.scrollLeft = oneCopyWidth;
+    } else if (scrollContainer.scrollLeft >= oneCopyWidth * 2) {
+      scrollContainer.scrollLeft = oneCopyWidth;
     }
-});
+  });
 
-document.getElementById('flashcardsBtn').addEventListener('click', () => {
-    message.textContent = "Nincsenek kártyák.";
-});
-
-document.getElementById('quizBtn').addEventListener('click', () => {
-    message.textContent = "Nincsenek kártyák.";
-});
-
-document.getElementById('addQuestionBtn').addEventListener('click', () => {
-    message.textContent = "Új kérdés hozzáadása.";
+  // Nyilak kezelése
+  scrollLeftBtn.addEventListener("click", () => {
+    scrollContainer.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+  });
+  scrollRightBtn.addEventListener("click", () => {
+    scrollContainer.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  });
 });

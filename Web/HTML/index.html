@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Jersey 10' rel='stylesheet'>
-  <title>Quiztopia</title>
-  <link rel="stylesheet" href="../CSS/style.css">
-</head>
-<body>
-  <main>
-    <header class="quiz-header">
-            <h1>Quiztopia</h1>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Jersey 10" rel="stylesheet" />
+    <title>Quiztopia</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="quiz-header">
+        <h1>Quiztopia</h1>
+      </header>
 
-    <section class="category-section">
-            <div class="category-carousel">
-                <button class="carousel-btn prev">&lt;</button>
-                
-                <div class="category-cards">
-                    <div class="category-card">
-                        <img src="assets/background.jpeg" alt="Történelem Quiz">
-                        <span>Töri quiz</span>
-                    </div>
-                    <div class="category-card">
-                        <img src="assets/background.jpeg" alt="Sport Quiz">
-                        <span>Sport quiz</span>
-                    </div>
-                    <div class="category-card">
-                        <img src="assets/background.jpeg" alt="Matek Quiz">
-                        <span>Matek quiz</span>
-                    </div>
-                    <div class="category-card">
-                        <img src="assets/background.jpeg" alt="Nyelv Quiz">
-                        <span>Nyelv quiz</span>
-                    </div>
-                </div>
+      <section class="category-section">
+        <div class="category-carousel">
+          <button class="carousel-btn prev" id="scroll-left">&lt;</button>
 
-                <button class="carousel-btn next">&gt;</button>
+          <div class="category-cards" id="scroll-container">
+            <div class="category-card" data-id="1">
+              <img src="/Web/Assets/Tori.png" alt="Történelem Quiz" />
+              <span>Töri quiz</span>
             </div>
+            <div class="category-card" data-id="2">
+              <img src="/Web/Assets/Sport.png" alt="Sport Quiz" />
+              <span>Sport quiz</span>
+            </div>
+            <div class="category-card" data-id="3">
+              <img src="/Web/Assets/Math.png" alt="Matek Quiz" />
+              <span>Matek quiz</span>
+            </div>
+            <div class="category-card" data-id="4">
+              <img src="/Web/Assets/Nyelv.png" alt="Nyelv Quiz" />
+              <span>Nyelv quiz</span>
+            </div>
+          </div>
 
-            <button class="add-category-btn">Kategória hozzáadása</button>
-        </section>
-  </main>
-  <footer class="site-footer"></footer>
-  <script src="../JS/index.js"></script>
-</body>
+          <button class="carousel-btn next" id="scroll-right">&gt;</button>
+        </div>
+
+        <button class="add-category-btn" id="add-category">Kategória hozzáadása</button>
+      </section>
+    </main>
+
+    <footer class="site-footer"></footer>
+
+    <script src="/Web/JS/index.js"></script>
+  </body>
 </html>
