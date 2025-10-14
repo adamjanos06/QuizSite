@@ -16,21 +16,25 @@
       "title": "Sport",
       "imgURL": null,
       "color": "#5c800f",
-      "id": "CZOtped",
-      "cards": []
+      "id": "CZOtped"
     },
     {
       "title": "Nyelv",
       "imgURL": null,
       "color": "#5c224b",
-      "id": "9OkzXmT",
-      "cards": []
+      "id": "9OkzXmT"
     },
     {
       "title": "Star Wars",
       "imgURL": null,
       "color": "#f9171d",
       "id": "kGYfw59"
+    },
+    {
+      "title": "Minecraft",
+      "imgURL": "https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/parallaxC/scene_default/day/Focus_Cherry.png",
+      "color": "#8dddeb",
+      "id": "1KQqMIl"
     }
   ],
   "cards": [

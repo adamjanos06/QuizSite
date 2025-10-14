@@ -16,7 +16,7 @@ function createBoard() {
   if (!title.value) return alert('Title is required')
 
   const finalColor = color.toString() === '#000000' ? randomColor() : color.toString()
-  const finalImgURL = imgURL.value === "" ? null : imgURL
+  const finalImgURL = imgURL.value === "" ? null : imgURL.value
   useBoardStore().addBoard(title.value, finalImgURL, finalColor)
 
   router.push({ name: 'index' })
