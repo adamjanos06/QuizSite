@@ -11,10 +11,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@components/ui/sheet'
 const title = import.meta.env.VITE_APP_NAME
 
 const links = [
-  {
-    label: 'Page',
-    to: '#'
-  }
+  
 ]
 </script>
 
@@ -22,7 +19,7 @@ const links = [
   <header class="bg-white">
     <div class="flex justify-between p-3 border-b-2 flex-wrap">
       <RouterLink to="/" class="flex items-center space-x-3">
-        <span class="self-center text-2xl font-semibold">{{ title }}</span>
+        <span class="self-center text-2xl font-semibold">Quiztopia</span>
       </RouterLink>
       <Sheet>
         <SheetTrigger asChild>
@@ -48,7 +45,7 @@ const links = [
         </SheetTrigger>
         <SheetContent side="left">
           <RouterLink to="/" class="mr-6 hidden lg:flex">
-            <span class="sr-only">{{ title }}</span>
+            <span class="sr-only">Quiztopia</span>
           </RouterLink>
           <div class="grid gap-2 py-6">
             <RouterLink

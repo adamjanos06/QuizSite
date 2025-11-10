@@ -9,6 +9,9 @@ function goTo(path) {
   if (!boardId) return
   window.location.href = `http://quiztopia.bohoc.quizgame/${path}/${boardId}`
 }
+function GoBack() {
+  window.location.href = `http://quiztopia.bohoc.quizgame/`
+}
 </script>
 
 <template>
@@ -34,6 +37,12 @@ function goTo(path) {
         class="py-3 bg-orange-500 hover:bg-orange-600 rounded-xl font-semibold shadow-lg transition"
       >
         Add Card
+      </button>
+    </div>
+    <div>
+      <button
+      @click="GoBack()">
+        Vissza
       </button>
     </div>
   </BaseLayout>

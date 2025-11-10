@@ -43,6 +43,9 @@ function createCard() {
       console.error('Failed to add card:', error)
     })
 }
+function goBack() {
+  window.location.href = `http://quiztopia.bohoc.quizgame/board/${boardId}`
+}
 </script>
 
 <template>
@@ -74,6 +77,13 @@ function createCard() {
       </div>
       <button @click="createCard()" class="bg-blue-500 text-white rounded py-2 px-4 w-full">
         Kártya létrehozása
+      </button>
+    </div>
+
+    <div>
+      <button
+      @click="goBack()">
+        Vissza
       </button>
     </div>
   </BaseLayout>

@@ -113,5 +113,12 @@ function goBack() {
       <p style="margin-top: 15px;">{{ currentIndex + 1 }} / {{ quizCards.length }}</p>
       <p>Pontszám: {{ score }}</p>
     </div>
+
+    <div>
+      <button
+      @click="goBack()">
+        Vissza
+      </button>
+    </div>
   </BaseLayout>
 </template>

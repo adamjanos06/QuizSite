@@ -77,5 +77,12 @@ function goBack() {
         <p>{{ currentIndex + 1 }} / {{ cards.length }}</p>
       </div>
     </card>
+
+    <div>
+      <button
+      @click="goBack()">
+        Vissza
+      </button>
+    </div>
   </BaseLayout>
 </template>
