@@ -2,25 +2,25 @@
   "boards": [
     {
       "title": "Matek",
-      "imgURL": null,
+      "imgURL": "https://cdn.imgchest.com/files/a1c7aa5a7938.png",
       "color": "#0df76c",
       "id": "b2qBt7S"
     },
     {
       "title": "Földrajz",
-      "imgURL": null,
+      "imgURL": "https://cdn.imgchest.com/files/8064575b36d0.png",
       "color": "#784a44",
       "id": "nolUYPd"
     },
     {
       "title": "Sport",
-      "imgURL": null,
+      "imgURL": "https://cdn.imgchest.com/files/7b01609e5e8f.png",
       "color": "#5c800f",
       "id": "CZOtped"
     },
     {
       "title": "Nyelv",
-      "imgURL": null,
+      "imgURL": "https://cdn.imgchest.com/files/cd3109ce58bf.png",
       "color": "#5c224b",
       "id": "9OkzXmT"
     },
@@ -171,444 +171,664 @@
       "id": "oWE9F7p"
     },
     {
-    "question": "Mi a Minecraft fő célja a túlélő módban?",
-    "answers": [
-      "Túlélni és legyőzni az Ender Dragont",
-      "Épületeket díszíteni",
-      "Csak felfedezni a világot",
-      "Villager kereskedéseket végezni"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard1"
-  },
-  {
-    "question": "Milyen blokk szükséges Nether Portal építéséhez?",
-    "answers": [
-      "Obszidián",
-      "Bazalt",
-      "Netherrack",
-      "Fekete kő"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard2"
-  },
-  {
-    "question": "Melyik eszköz a leghatékonyabb fa kivágására?",
-    "answers": [
-      "Balta",
-      "Kard",
-      "Csákány",
-      "Ásó"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard3"
-  },
-  {
-    "question": "Milyen anyagból készül egy Crafting Table?",
-    "answers": [
-      "Fa deszkákból",
-      "Kőből",
-      "Vasból",
-      "Fűblokkból"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard4"
-  },
-  {
-    "question": "Mi kell egy vasrúd elkészítéséhez?",
-    "answers": [
-      "Vasérc és kemence",
-      "Szén és bot",
-      "Kő és vasrúd",
-      "Gyémánt és kő"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard5"
-  },
-  {
-    "question": "Hogyan lehet eljutni az End dimenzióba?",
-    "answers": [
-      "End Portal aktiválásával szemekkel",
-      "Nether Portal segítségével",
-      "Egy különleges térkép használatával",
-      "Falusi kereskedéssel"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard6"
-  },
-  {
-    "question": "Melyik mob dob Blaze Rodot?",
-    "answers": [
-      "Blaze",
-      "Ghast",
-      "Magma Cube",
-      "Wither Skeleton"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard7"
-  },
-  {
-    "question": "Melyik mob támad a Netherben?",
-    "answers": [
-      "Ghast",
-      "Creeper",
-      "Zombie Villager",
-      "Pillager"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard8"
-  },
-  {
-    "question": "Mi a legkeményebb anyag a játékban?",
-    "answers": [
-      "Netherite",
-      "Gyémánt",
-      "Obszidián",
-      "Arany"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard9"
-  },
-  {
-    "question": "Melyik eszköz alkalmas gyémánt kibányászására?",
-    "answers": [
-      "Vas vagy jobb csákány",
-      "Kő csákány",
-      "Fa csákány",
-      "Arany csákány"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard10"
-  },
-  {
-    "question": "Mit kell használni állatok szaporításához?",
-    "answers": [
-      "Megfelelő ételt",
-      "Aranyat",
-      "Vízvödröt",
-      "Potiont"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard11"
-  },
-  {
-    "question": "Milyen blokkból készül a sütő (Furnace)?",
-    "answers": [
-      "Kőből",
-      "Fa deszkából",
-      "Vasércből",
-      "Homokból"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard12"
-  },
-  {
-    "question": "Melyik mob robban fel közelharcban?",
-    "answers": [
-      "Creeper",
-      "Zombie",
-      "Skeleton",
-      "Spider"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard13"
-  },
-  {
-    "question": "Miből készül kenyér a Minecraftban?",
-    "answers": [
-      "Búzából",
-      "Burgonyából",
-      "Répa és víz kombinációjából",
-      "Sütőtökből"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard14"
-  },
-  {
-    "question": "Hány blokk magas egy játékos karakter?",
-    "answers": [
-      "2 blokk",
-      "1 blokk",
-      "3 blokk",
-      "1.5 blokk"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard15"
-  },
-  {
-    "question": "Mit dob le egy csontváz halálakor?",
-    "answers": [
-      "Csontot és nyilat",
-      "Zombifejet",
-      "Pókfonalat",
-      "Obszidiánt"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard16"
-  },
-  {
-    "question": "Hogyan lehet aludni a játékban?",
-    "answers": [
-      "Ágy használatával éjjel",
-      "Sátorral",
-      "Potion segítségével",
-      "Falusi házban"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard17"
-  },
-  {
-    "question": "Mit használ a játékos a Netherbe való bejutáshoz?",
-    "answers": [
-      "Flint and Steel",
-      "Gyufa",
-      "Potion of Fire",
-      "Torch"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard18"
-  },
-  {
-    "question": "Mi történik, ha ágyban alszol a Netherben?",
-    "answers": [
-      "Felrobban",
-      "Semmi",
-      "Gyorsabban telik az idő",
-      "Visszakerülsz az Overworldbe"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard19"
-  },
-  {
-    "question": "Melyik mob segít a játékosnak, ha megszelídíti?",
-    "answers": [
-      "Farkas",
-      "Creeper",
-      "Enderman",
-      "Zombie"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard20"
-  },
-  {
-    "question": "Melyik dimenzióban található az Ender Dragon?",
-    "answers": [
-      "The End",
-      "Nether",
-      "Overworld",
-      "Sky Dimension"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard21"
-  },
-  {
-    "question": "Mit dob le a Creeper, ha meghal robbanás nélkül?",
-    "answers": [
-      "Lőport",
-      "Csontot",
-      "Nyilat",
-      "Szenet"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard22"
-  },
-  {
-    "question": "Mi kell egy térkép készítéséhez?",
-    "answers": [
-      "Papír és iránytű",
-      "Csontpor és homok",
-      "Tinta és könyv",
-      "Bőr és papír"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard23"
-  },
-  {
-    "question": "Mi a villager kereskedés alapja?",
-    "answers": [
-      "Smaragd",
-      "Gyémánt",
-      "Vas",
-      "Szén"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard24"
-  },
-  {
-    "question": "Melyik mob égett meg a napfényben?",
-    "answers": [
-      "Zombie és Skeleton",
-      "Creeper",
-      "Spider",
-      "Enderman"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard25"
-  },
-  {
-    "question": "Mi kell egy íj elkészítéséhez?",
-    "answers": [
-      "Bot és pókfonal",
-      "Vas és pálca",
-      "Gyémánt és szén",
-      "Csont és nyíl"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard26"
-  },
-  {
-    "question": "Mit lehet készíteni aranyrudakból?",
-    "answers": [
-      "Aranyalma",
-      "Gyémánt kard",
-      "Potion of Healing",
-      "Térkép"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard27"
-  },
-  {
-    "question": "Melyik potion ad tűzállóságot?",
-    "answers": [
-      "Fire Resistance Potion",
-      "Fire Potion",
-      "Lava Protection Potion",
-      "Blaze Shield"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard28"
-  },
-  {
-    "question": "Mi a fő erőforrás a Netherben?",
-    "answers": [
-      "Nether Quartz",
-      "Gyémánt",
-      "Vas",
-      "Redstone"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard29"
-  },
-  {
-    "question": "Mi szükséges egy beacon aktiválásához?",
-    "answers": [
-      "Nether Star",
-      "Ender Pearl",
-      "Ghast Tear",
-      "Blaze Rod"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard30"
-  },
-  {
-    "question": "Mit ad a totem of undying?",
-    "answers": [
-      "Megment a haláltól egyszer",
-      "Végtelen életerőt",
-      "Gyorsaságot",
-      "Repülést"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard31"
-  },
-  {
-    "question": "Hány blokk széles egy Nether Portal minimum?",
-    "answers": [
-      "2 blokk",
-      "3 blokk",
-      "4 blokk",
-      "5 blokk"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard32"
-  },
-  {
-    "question": "Mit lehet csinálni a Stonecutterrel?",
-    "answers": [
-      "Köveket formázni pontosan",
-      "Köveket égetni",
-      "Ércet olvasztani",
-      "Épületeket másolni"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard33"
-  },
-  {
-    "question": "Mit ad egy enchanting table működéséhez?",
-    "answers": [
-      "Lapis Lazuli",
-      "Gyémánt",
-      "Obszidián",
-      "Redstone"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard34"
-  },
-  {
-    "question": "Milyen mobot lehet arany répával szaporítani?",
-    "answers": [
-      "Ló",
-      "Disznó",
-      "Nyúl",
-      "Farkas"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard35"
-  },
-  {
-    "question": "Mit ad a víz alatt lélegzés potion?",
-    "answers": [
-      "Vízi légzést",
-      "Gyors úszást",
-      "Erősebb támadást",
-      "Sebezhetetlenséget"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard36"
-  },
-  {
-    "question": "Mi kell a Respawn Anchor feltöltéséhez?",
-    "answers": [
-      "Glowstone",
-      "Netherite",
-      "Redstone",
-      "Quartz"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard37"
-  },
-  {
-    "question": "Melyik mob dob Nether Star-t?",
-    "answers": [
-      "Wither",
-      "Ender Dragon",
-      "Ghast",
-      "Piglin Brute"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard38"
-  },
-  {
-    "question": "Mi kell egy Ender Chest elkészítéséhez?",
-    "answers": [
-      "Obszidián és Ender Pearl",
-      "Gyémánt és Lapis",
-      "Vas és Redstone",
-      "Kő és Smaragd"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard39"
-  },
-  {
-    "question": "Melyik enchantment akadályozza a leesési sebzést?",
-    "answers": [
-      "Feather Falling",
-      "Protection",
-      "Thorns",
-      "Depth Strider"
-    ],
-    "board_id": "1KQqMIl",
-    "id": "MCcard40"
-  }
+      "question": "Mi a Minecraft fő célja a túlélő módban?",
+      "answers": [
+        "Túlélni és legyőzni az Ender Dragont",
+        "Épületeket díszíteni",
+        "Csak felfedezni a világot",
+        "Villager kereskedéseket végezni"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard1"
+    },
+    {
+      "question": "Milyen blokk szükséges Nether Portal építéséhez?",
+      "answers": [
+        "Obszidián",
+        "Bazalt",
+        "Netherrack",
+        "Fekete kő"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard2"
+    },
+    {
+      "question": "Melyik eszköz a leghatékonyabb fa kivágására?",
+      "answers": [
+        "Balta",
+        "Kard",
+        "Csákány",
+        "Ásó"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard3"
+    },
+    {
+      "question": "Milyen anyagból készül egy Crafting Table?",
+      "answers": [
+        "Fa deszkákból",
+        "Kőből",
+        "Vasból",
+        "Fűblokkból"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard4"
+    },
+    {
+      "question": "Mi kell egy vasrúd elkészítéséhez?",
+      "answers": [
+        "Vasérc és kemence",
+        "Szén és bot",
+        "Kő és vasrúd",
+        "Gyémánt és kő"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard5"
+    },
+    {
+      "question": "Hogyan lehet eljutni az End dimenzióba?",
+      "answers": [
+        "End Portal aktiválásával szemekkel",
+        "Nether Portal segítségével",
+        "Egy különleges térkép használatával",
+        "Falusi kereskedéssel"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard6"
+    },
+    {
+      "question": "Melyik mob dob Blaze Rodot?",
+      "answers": [
+        "Blaze",
+        "Ghast",
+        "Magma Cube",
+        "Wither Skeleton"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard7"
+    },
+    {
+      "question": "Melyik mob támad a Netherben?",
+      "answers": [
+        "Ghast",
+        "Creeper",
+        "Zombie Villager",
+        "Pillager"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard8"
+    },
+    {
+      "question": "Mi a legkeményebb anyag a játékban?",
+      "answers": [
+        "Netherite",
+        "Gyémánt",
+        "Obszidián",
+        "Arany"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard9"
+    },
+    {
+      "question": "Melyik eszköz alkalmas gyémánt kibányászására?",
+      "answers": [
+        "Vas vagy jobb csákány",
+        "Kő csákány",
+        "Fa csákány",
+        "Arany csákány"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard10"
+    },
+    {
+      "question": "Mit kell használni állatok szaporításához?",
+      "answers": [
+        "Megfelelő ételt",
+        "Aranyat",
+        "Vízvödröt",
+        "Potiont"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard11"
+    },
+    {
+      "question": "Milyen blokkból készül a sütő (Furnace)?",
+      "answers": [
+        "Kőből",
+        "Fa deszkából",
+        "Vasércből",
+        "Homokból"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard12"
+    },
+    {
+      "question": "Melyik mob robban fel közelharcban?",
+      "answers": [
+        "Creeper",
+        "Zombie",
+        "Skeleton",
+        "Spider"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard13"
+    },
+    {
+      "question": "Miből készül kenyér a Minecraftban?",
+      "answers": [
+        "Búzából",
+        "Burgonyából",
+        "Répa és víz kombinációjából",
+        "Sütőtökből"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard14"
+    },
+    {
+      "question": "Hány blokk magas egy játékos karakter?",
+      "answers": [
+        "2 blokk",
+        "1 blokk",
+        "3 blokk",
+        "1.5 blokk"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard15"
+    },
+    {
+      "question": "Mit dob le egy csontváz halálakor?",
+      "answers": [
+        "Csontot és nyilat",
+        "Zombifejet",
+        "Pókfonalat",
+        "Obszidiánt"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard16"
+    },
+    {
+      "question": "Hogyan lehet aludni a játékban?",
+      "answers": [
+        "Ágy használatával éjjel",
+        "Sátorral",
+        "Potion segítségével",
+        "Falusi házban"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard17"
+    },
+    {
+      "question": "Mit használ a játékos a Netherbe való bejutáshoz?",
+      "answers": [
+        "Flint and Steel",
+        "Gyufa",
+        "Potion of Fire",
+        "Torch"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard18"
+    },
+    {
+      "question": "Mi történik, ha ágyban alszol a Netherben?",
+      "answers": [
+        "Felrobban",
+        "Semmi",
+        "Gyorsabban telik az idő",
+        "Visszakerülsz az Overworldbe"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard19"
+    },
+    {
+      "question": "Melyik mob segít a játékosnak, ha megszelídíti?",
+      "answers": [
+        "Farkas",
+        "Creeper",
+        "Enderman",
+        "Zombie"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard20"
+    },
+    {
+      "question": "Melyik dimenzióban található az Ender Dragon?",
+      "answers": [
+        "The End",
+        "Nether",
+        "Overworld",
+        "Sky Dimension"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard21"
+    },
+    {
+      "question": "Mit dob le a Creeper, ha meghal robbanás nélkül?",
+      "answers": [
+        "Lőport",
+        "Csontot",
+        "Nyilat",
+        "Szenet"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard22"
+    },
+    {
+      "question": "Mi kell egy térkép készítéséhez?",
+      "answers": [
+        "Papír és iránytű",
+        "Csontpor és homok",
+        "Tinta és könyv",
+        "Bőr és papír"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard23"
+    },
+    {
+      "question": "Mi a villager kereskedés alapja?",
+      "answers": [
+        "Smaragd",
+        "Gyémánt",
+        "Vas",
+        "Szén"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard24"
+    },
+    {
+      "question": "Melyik mob égett meg a napfényben?",
+      "answers": [
+        "Zombie és Skeleton",
+        "Creeper",
+        "Spider",
+        "Enderman"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard25"
+    },
+    {
+      "question": "Mi kell egy íj elkészítéséhez?",
+      "answers": [
+        "Bot és pókfonal",
+        "Vas és pálca",
+        "Gyémánt és szén",
+        "Csont és nyíl"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard26"
+    },
+    {
+      "question": "Mit lehet készíteni aranyrudakból?",
+      "answers": [
+        "Aranyalma",
+        "Gyémánt kard",
+        "Potion of Healing",
+        "Térkép"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard27"
+    },
+    {
+      "question": "Melyik potion ad tűzállóságot?",
+      "answers": [
+        "Fire Resistance Potion",
+        "Fire Potion",
+        "Lava Protection Potion",
+        "Blaze Shield"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard28"
+    },
+    {
+      "question": "Mi a fő erőforrás a Netherben?",
+      "answers": [
+        "Nether Quartz",
+        "Gyémánt",
+        "Vas",
+        "Redstone"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard29"
+    },
+    {
+      "question": "Mi szükséges egy beacon aktiválásához?",
+      "answers": [
+        "Nether Star",
+        "Ender Pearl",
+        "Ghast Tear",
+        "Blaze Rod"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard30"
+    },
+    {
+      "question": "Mit ad a totem of undying?",
+      "answers": [
+        "Megment a haláltól egyszer",
+        "Végtelen életerőt",
+        "Gyorsaságot",
+        "Repülést"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard31"
+    },
+    {
+      "question": "Hány blokk széles egy Nether Portal minimum?",
+      "answers": [
+        "2 blokk",
+        "3 blokk",
+        "4 blokk",
+        "5 blokk"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard32"
+    },
+    {
+      "question": "Mit lehet csinálni a Stonecutterrel?",
+      "answers": [
+        "Köveket formázni pontosan",
+        "Köveket égetni",
+        "Ércet olvasztani",
+        "Épületeket másolni"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard33"
+    },
+    {
+      "question": "Mit ad egy enchanting table működéséhez?",
+      "answers": [
+        "Lapis Lazuli",
+        "Gyémánt",
+        "Obszidián",
+        "Redstone"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard34"
+    },
+    {
+      "question": "Milyen mobot lehet arany répával szaporítani?",
+      "answers": [
+        "Ló",
+        "Disznó",
+        "Nyúl",
+        "Farkas"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard35"
+    },
+    {
+      "question": "Mit ad a víz alatt lélegzés potion?",
+      "answers": [
+        "Vízi légzést",
+        "Gyors úszást",
+        "Erősebb támadást",
+        "Sebezhetetlenséget"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard36"
+    },
+    {
+      "question": "Mi kell a Respawn Anchor feltöltéséhez?",
+      "answers": [
+        "Glowstone",
+        "Netherite",
+        "Redstone",
+        "Quartz"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard37"
+    },
+    {
+      "question": "Melyik mob dob Nether Star-t?",
+      "answers": [
+        "Wither",
+        "Ender Dragon",
+        "Ghast",
+        "Piglin Brute"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard38"
+    },
+    {
+      "question": "Mi kell egy Ender Chest elkészítéséhez?",
+      "answers": [
+        "Obszidián és Ender Pearl",
+        "Gyémánt és Lapis",
+        "Vas és Redstone",
+        "Kő és Smaragd"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard39"
+    },
+    {
+      "question": "Melyik enchantment akadályozza a leesési sebzést?",
+      "answers": [
+        "Feather Falling",
+        "Protection",
+        "Thorns",
+        "Depth Strider"
+      ],
+      "board_id": "1KQqMIl",
+      "id": "MCcard40"
+    },
+    {
+      "question": "Mi az 144 négyzetgyöke?",
+      "answers": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math11"
+    },
+    {
+      "question": "Mi az 5³ értéke?",
+      "answers": [
+        "125",
+        "15",
+        "25",
+        "100"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math12"
+    },
+    {
+      "question": "Melyik szám prímszám?",
+      "answers": [
+        "31",
+        "33",
+        "35",
+        "39"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math13"
+    },
+    {
+      "question": "Mi az ln(e²)?",
+      "answers": [
+        "2",
+        "1",
+        "0",
+        "e"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math14"
+    },
+    {
+      "question": "Melyik egyenlet igaz?",
+      "answers": [
+        "3² + 4² = 5²",
+        "2² + 3² = 6",
+        "5² - 4² = 20",
+        "6² = 35"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math15"
+    },
+    {
+      "question": "Mi az első 10 természetes szám összege?",
+      "answers": [
+        "55",
+        "45",
+        "50",
+        "60"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math16"
+    },
+    {
+      "question": "Melyik szám osztható 12-vel?",
+      "answers": [
+        "36",
+        "30",
+        "40",
+        "50"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math17"
+    },
+    {
+      "question": "Mi az aranymetszés aránya kb.?",
+      "answers": [
+        "1.618",
+        "1.414",
+        "1.732",
+        "2"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math18"
+    },
+    {
+      "question": "Mi 15% -a 200-nak?",
+      "answers": [
+        "30",
+        "25",
+        "35",
+        "40"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math19"
+    },
+    {
+      "question": "Melyik szám a legnagyobb?",
+      "answers": [
+        "2⁵",
+        "5²",
+        "3³",
+        "4⁴"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math20"
+    },
+    {
+      "question": "Mi a deriváltja az f(x)=x² + 3x függvénynek?",
+      "answers": [
+        "2x + 3",
+        "x² + 3",
+        "2x",
+        "3x"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math21"
+    },
+    {
+      "question": "Mennyi 7 * 8?",
+      "answers": [
+        "56",
+        "54",
+        "48",
+        "64"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math22"
+    },
+    {
+      "question": "Mennyi az 1/2 + 1/3?",
+      "answers": [
+        "5/6",
+        "2/5",
+        "3/6",
+        "1/5"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math23"
+    },
+    {
+      "question": "Milyen típusú háromszög az, amelynek minden oldala egyenlő?",
+      "answers": [
+        "Egyenlő oldalú",
+        "Egyenlő szárú",
+        "Általános",
+        "Derékszögű"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math24"
+    },
+    {
+      "question": "Mennyi 10! (10 faktoriális) értéke?",
+      "answers": [
+        "3628800",
+        "362880",
+        "39916800",
+        "36288000"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math25"
+    },
+    {
+      "question": "Ha egy derékszögű háromszög befogói 3 és 4, a hipotenúza mennyi?",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math26"
+    },
+    {
+      "question": "Mi az 2¹⁰ értéke?",
+      "answers": [
+        "1024",
+        "1000",
+        "2048",
+        "512"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math27"
+    },
+    {
+      "question": "Melyik szám irracionális?",
+      "answers": [
+        "√2",
+        "3/4",
+        "5",
+        "0.25"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math28"
+    },
+    {
+      "question": "Mi az összefüggés a szög fok és radián között (180° hány radián)?",
+      "answers": [
+        "π",
+        "2π",
+        "π/2",
+        "π/4"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math29"
+    },
+    {
+      "question": "Mekkora a kör területe, ha r sugár=3? (képlet: A=πr²)",
+      "answers": [
+        "9π",
+        "6π",
+        "3π",
+        "18π"
+      ],
+      "board_id": "b2qBt7S",
+      "id": "math30"
+    }
   ]
 }
