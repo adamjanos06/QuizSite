@@ -21,7 +21,9 @@ function createBoard() {
 
   router.push({ name: 'index' })
 }
-
+function GoBack() {
+  window.location.href = `http://quiztopia.bohoc.quizgame/`
+}
 </script>
 
 <template>
@@ -43,6 +45,12 @@ function createBoard() {
       </div>
       <button @click="createBoard()" class="bg-blue-500 text-white rounded py-2 px-4 w-full">
         Tábla létrehozása
+      </button>
+    </div>
+    <div>
+      <button
+      @click="GoBack()">
+        Vissza
       </button>
     </div>
   </BaseLayout>
