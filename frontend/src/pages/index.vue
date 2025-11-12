@@ -60,7 +60,9 @@ function openBoard(boardId) {
 
 <template>
   <BaseLayout>
-    <div class="flex flex-col items-center justify-center h-full">
+    <div
+      class="mt-40 flex flex-col items-center justify-center">
+
 
       <div class="w-full max-w-4xl">
         <div class="flex items-center">
@@ -88,7 +90,7 @@ function openBoard(boardId) {
                 <h3 class="z-10 text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">{{ board.title }}</h3>
               </div>
             </template>
-
+            
             <template v-for="board in boards" :key="'o-'+board.id">
               <div
                 class="carousel-card w-48 h-32 flex-shrink-0 flex items-center justify-center rounded-lg shadow-lg text-white text-lg font-bold relative cursor-pointer transform hover:scale-105 transition"
@@ -101,7 +103,7 @@ function openBoard(boardId) {
                 <h3 class="z-10 text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">{{ board.title }}</h3>
               </div>
             </template>
-
+          
             <template v-for="board in boards" :key="'c2-'+board.id">
               <div
                 class="carousel-card w-48 h-32 flex-shrink-0 flex items-center justify-center rounded-lg shadow-lg text-white text-lg font-bold relative cursor-pointer transform hover:scale-105 transition"
@@ -128,7 +130,8 @@ function openBoard(boardId) {
 
       <a
         href="http://quiztopia.bohoc.quizgame/add-board"
-        class="mt-8 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition"
+        class="mt-30 py-5 px-12 text-3xl font-bold text-black rounded-3xl border-3 border-white bg-cyan-500 hover:bg-cyan-600 shadow-lg text-center transition-all"
+        style="text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;"
       >
         Kategória hozzáadása
       </a>
