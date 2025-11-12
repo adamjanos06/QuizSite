@@ -50,39 +50,104 @@ function goBack() {
 
 <template>
   <BaseLayout>
-    <h1 class="text-4xl my-6">Új Kártya Hozzáadása</h1>
-    <div class="max-w-md bg-white p-6 rounded shadow space-y-4">
-      <div v-if="successMessage" class="bg-green-100 text-green-800 p-2 rounded mb-2">
-        {{ successMessage }}
-      </div>
-      <div>
-        <label class="block mb-1 font-semibold">Kérdés</label>
-        <input v-model="question" type="text" placeholder="Kérdés" class="w-full border rounded px-2 py-1">
-      </div>
-      <div>
-        <label class="block mb-1 font-semibold">Helyes válasz</label>
-        <input v-model="correctAnswer" type="text" placeholder="Helyes válasz" class="w-full border rounded px-2 py-1">
-      </div>
-      <div>
-        <label class="block mb-1 font-semibold">Hamis válasz 1</label>
-        <input v-model="falseAnswer1" type="text" placeholder="Hamis válasz 1" class="w-full border rounded px-2 py-1">
-      </div>
-      <div>
-        <label class="block mb-1 font-semibold">Hamis válasz 2</label>
-        <input v-model="falseAnswer2" type="text" placeholder="Hamis válasz 2" class="w-full border rounded px-2 py-1">
-      </div>
-      <div>
-        <label class="block mb-1 font-semibold">Hamis válasz 3</label>
-        <input v-model="falseAnswer3" type="text" placeholder="Hamis válasz 3" class="w-full border rounded px-2 py-1">
-      </div>
-      <button @click="createCard()" class="bg-blue-500 text-white rounded py-2 px-4 w-full">
-        Kártya létrehozása
-      </button>
-    </div>
+    <div class="flex flex-col items-center justify-center py-20 text-white font-[Jersey_10]">
+      <h1
+        class="text-5xl md:text-6xl mb-10 text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] tracking-wider"
+      >
+        Új Kártya Hozzáadása
+      </h1>
 
-    <div>
+      <div
+        class="w-full max-w-lg bg-white/10 backdrop-blur-xl border-2 border-white/30 rounded-3xl shadow-2xl p-10 flex flex-col gap-6"
+      >
+      
+        <div v-if="successMessage" class="bg-green-100 text-green-800 p-3 rounded">
+          {{ successMessage }}
+        </div>
+
+        <div>
+          <label
+            class="block text-2xl mb-2 text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.6)]"
+          >
+            Kérdés
+          </label>
+          <input
+            v-model="question"
+            type="text"
+            placeholder="Pl. Történelem"
+            class="w-full bg-white/20 border-2 border-white/40 text-white text-xl rounded-xl px-4 py-3 outline-none placeholder-white/60 focus:border-cyan-400 focus:bg-white/30 transition"
+          />
+        </div>
+
+        <div>
+          <label
+            class="block text-2xl mb-2 text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.6)]"
+          >
+            Helyes válasz
+          </label>
+          <input
+            v-model="correctAnswer"
+            type="text"
+            placeholder="Helyes válasz"
+            class="w-full bg-white/20 border-2 border-white/40 text-white text-xl rounded-xl px-4 py-3 outline-none placeholder-white/60 focus:border-cyan-400 focus:bg-white/30 transition"
+          />
+        </div>
+
+        <div>
+          <label
+            class="block text-2xl mb-2 text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.6)]"
+          >
+            Hamis válasz 1
+          </label>
+          <input
+            v-model="falseAnswer1"
+            type="text"
+            placeholder="Hamis válasz 1"
+            class="w-full bg-white/20 border-2 border-white/40 text-white text-xl rounded-xl px-4 py-3 outline-none placeholder-white/60 focus:border-cyan-400 focus:bg-white/30 transition"
+          />
+        </div>
+
+        <div>
+          <label
+            class="block text-2xl mb-2 text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.6)]"
+          >
+            Hamis válasz 2
+          </label>
+          <input
+            v-model="falseAnswer2"
+            type="text"
+            placeholder="Hamis válasz 2"
+            class="w-full bg-white/20 border-2 border-white/40 text-white text-xl rounded-xl px-4 py-3 outline-none placeholder-white/60 focus:border-cyan-400 focus:bg-white/30 transition"
+          />
+        </div>
+
+        <div>
+          <label
+            class="block text-2xl mb-2 text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.6)]"
+          >
+            Hamis válasz 3
+          </label>
+          <input
+            v-model="falseAnswer3"
+            type="text"
+            placeholder="Hamis válasz 3"
+            class="w-full bg-white/20 border-2 border-white/40 text-white text-xl rounded-xl px-4 py-3 outline-none placeholder-white/60 focus:border-cyan-400 focus:bg-white/30 transition"
+          />
+        </div>
+
+        <button
+          @click="createCard"
+          class="mt-6 bg-cyan-500 hover:bg-cyan-600 text-black text-4xl font-bold py-5 rounded-3xl border-4 border-white transition transform hover:scale-105 shadow-xl w-full"
+          style="text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;"
+        >
+          Kártya létrehozása
+        </button>
+      </div>
+
       <button
-      @click="goBack()">
+        @click="goBack"
+        class="mt-4 bg-black/40 hover:bg-black/60 text-white py-3 px-8 rounded-2xl shadow-lg text-lg transition"
+      >
         Vissza
       </button>
     </div>

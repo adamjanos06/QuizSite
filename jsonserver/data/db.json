@@ -35,6 +35,13 @@
       "imgURL": "https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/parallaxC/scene_default/day/Focus_Cherry.png",
       "color": "#8dddeb",
       "id": "1KQqMIl"
+    },
+    {
+      "title": "Loldle",
+      "imgURL": "https://cdn.imgchest.com/files/cc0148317ffa.png",
+      "color": "#199455",
+      "id": "94qvnAk",
+      "cards": []
     }
   ],
   "cards": [
@@ -831,184 +838,365 @@
       "id": "math30"
     },
     {
-    "question": "Mi a Jedi Rend fő fegyvere?",
-    "answers": ["Fénykard", "Blaster", "Vibrokard", "Sugárpisztoly"],
-    "board_id": "kGYfw59",
-    "id": "SW01"
-  },
-  {
-    "question": "Ki Luke Skywalker édesapja?",
-    "answers": ["Anakin Skywalker", "Han Solo", "Obi-Wan Kenobi", "Mace Windu"],
-    "board_id": "kGYfw59",
-    "id": "SW02"
-  },
-  {
-    "question": "Mi a Birodalom szuperfegyverének neve az Új reményben?",
-    "answers": ["Halálcsillag", "Sötét Csillag", "Csillagfúró", "Galaxisölő"],
-    "board_id": "kGYfw59",
-    "id": "SW03"
-  },
-  {
-    "question": "Melyik bolygón éltek a jedik a klónháborúk idején?",
-    "answers": ["Coruscant", "Naboo", "Tatooine", "Mustafar"],
-    "board_id": "kGYfw59",
-    "id": "SW04"
-  },
-  {
-    "question": "Ki volt az Első Rend vezetője az ébredő Erő idején?",
-    "answers": ["Snoke", "Darth Vader", "Tarkin", "Kylo Ren"],
-    "board_id": "kGYfw59",
-    "id": "SW05"
-  },
-  {
-    "question": "Melyik fajba tartozik Yoda?",
-    "answers": ["Ismeretlen faj", "Twi'lek", "Rodiai", "Zabrak"],
-    "board_id": "kGYfw59",
-    "id": "SW06"
-  },
-  {
-    "question": "Ki volt Han Solo legjobb barátja és társa?",
-    "answers": ["Chewbacca", "Lando Calrissian", "Finn", "R2-D2"],
-    "board_id": "kGYfw59",
-    "id": "SW07"
-  },
-  {
-    "question": "Hogy hívják a Mandalóri fő karakterét?",
-    "answers": ["Din Djarin", "Boba Fett", "Jango Fett", "Vizsla"],
-    "board_id": "kGYfw59",
-    "id": "SW08"
-  },
-  {
-    "question": "Ki volt a Sith Nagyúr, aki manipulálta a galaxis politikáját?",
-    "answers": ["Darth Sidious", "Darth Maul", "Darth Bane", "Darth Revan"],
-    "board_id": "kGYfw59",
-    "id": "SW09"
-  },
-  {
-    "question": "Melyik bolygón találjuk meg Anakin Skywalker gyerekkorát?",
-    "answers": ["Tatooine", "Jakku", "Geonosis", "Kamino"],
-    "board_id": "kGYfw59",
-    "id": "SW10"
-  },
-   {
-    "question": "Melyik sportágban használják a 'büntetődobás' kifejezést?",
-    "answers": ["Kosárlabda", "Tenisz", "Foci", "Jégkorong"],
-    "board_id": "CZOtped",
-    "id": "SP01"
-  },
-  {
-    "question": "Melyik focista kapta az első Aranylabdát?",
-    "answers": ["Stanley Matthews", "Pelé", "Maradona", "Di Stéfano"],
-    "board_id": "CZOtped",
-    "id": "SP02"
-  },
-  {
-    "question": "Hány játékos van egy időben a pályán egy röplabdacsapatból?",
-    "answers": ["6", "5", "7", "4"],
-    "board_id": "CZOtped",
-    "id": "SP03"
-  },
-  {
-    "question": "Melyik ország rendezte a 2016-os olimpiát?",
-    "answers": ["Brazília", "Kína", "Egyesült Királyság", "Japán"],
-    "board_id": "CZOtped",
-    "id": "SP04"
-  },
-  {
-    "question": "Melyik csapat nyerte a legtöbb Bajnokok Ligája címet?",
-    "answers": ["Real Madrid", "Barcelona", "AC Milan", "Liverpool"],
-    "board_id": "CZOtped",
-    "id": "SP05"
-  },
-  {
-    "question": "Melyik sportágban híres Michael Phelps?",
-    "answers": ["Úszás", "Atletika", "Kerékpár", "Torna"],
-    "board_id": "CZOtped",
-    "id": "SP06"
-  },
-  {
-    "question": "Melyik sportágban használnak ütőt és labdát?",
-    "answers": ["Tenisz", "Úszás", "Birkózás", "Box"],
-    "board_id": "CZOtped",
-    "id": "SP07"
-  },
-  {
-    "question": "Hány percig tart egy futballmérkőzés rendes játékideje?",
-    "answers": ["90 perc", "60 perc", "80 perc", "100 perc"],
-    "board_id": "CZOtped",
-    "id": "SP08"
-  },
-  {
-    "question": "Hol rendezik minden évben a Wimbledon tenisztornát?",
-    "answers": ["London", "Párizs", "New York", "Melbourne"],
-    "board_id": "CZOtped",
-    "id": "SP09"
-  },
-  {
-    "question": "Melyik sportágban található a 'touchdown' kifejezés?",
-    "answers": ["Amerikai foci", "Röplabda", "Foci", "Kézilabda"],
-    "board_id": "CZOtped",
-    "id": "SP10"
-  },
-  {
-    "question": "Melyik nyelvben van a legtöbb anyanyelvi beszélő a világon?",
-    "answers": ["Mandarin", "Spanyol", "Angol", "Hindi"],
-    "board_id": "9OkzXmT",
-    "id": "NY01"
-  },
-  {
-    "question": "Melyik nyelvben használják a cyrill ábécét?",
-    "answers": ["Orosz", "Spanyol", "Francia", "Koreai"],
-    "board_id": "9OkzXmT",
-    "id": "NY02"
-  },
-  {
-    "question": "Mi az angol 'dog' magyar megfelelője?",
-    "answers": ["Kutya", "Macska", "Ló", "Egér"],
-    "board_id": "9OkzXmT",
-    "id": "NY03"
-  },
-  {
-    "question": "Melyik nyelv tartozik a germán nyelvcsaládhoz?",
-    "answers": ["Angol", "Francia", "Olasz", "Finn"],
-    "board_id": "9OkzXmT",
-    "id": "NY04"
-  },
-  {
-    "question": "Mi a helyes többes szám angolul: 'child'?",
-    "answers": ["children", "childs", "childen", "childer"],
-    "board_id": "9OkzXmT",
-    "id": "NY05"
-  },
-  {
-    "question": "Melyik nyelvben találhatóak ékezetes betűk, például 'á', 'é', 'ö'?",
-    "answers": ["Magyar", "Angol", "Latin", "Olasz"],
-    "board_id": "9OkzXmT",
-    "id": "NY06"
-  },
-  {
-    "question": "Melyik nyelv használja a Kanji írásjeleket?",
-    "answers": ["Japán", "Kínai", "Koreai", "Thai"],
-    "board_id": "9OkzXmT",
-    "id": "NY07"
-  },
-  {
-    "question": "Mi az 'hola' jelentése spanyolul?",
-    "answers": ["Szia", "Igen", "Köszönöm", "Viszlát"],
-    "board_id": "9OkzXmT",
-    "id": "NY08"
-  },
-  {
-    "question": "Melyik nyelv beszélőit hívják 'frankofonoknak'?",
-    "answers": ["Francia", "Német", "Olasz", "Portugál"],
-    "board_id": "9OkzXmT",
-    "id": "NY09"
-  },
-  {
-    "question": "Mi a magyar 'kenyér' szó angol fordítása?",
-    "answers": ["bread", "milk", "cheese", "butter"],
-    "board_id": "9OkzXmT",
-    "id": "NY10"
-  }
+      "question": "Mi a Jedi Rend fő fegyvere?",
+      "answers": [
+        "Fénykard",
+        "Blaster",
+        "Vibrokard",
+        "Sugárpisztoly"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW01"
+    },
+    {
+      "question": "Ki Luke Skywalker édesapja?",
+      "answers": [
+        "Anakin Skywalker",
+        "Han Solo",
+        "Obi-Wan Kenobi",
+        "Mace Windu"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW02"
+    },
+    {
+      "question": "Mi a Birodalom szuperfegyverének neve az Új reményben?",
+      "answers": [
+        "Halálcsillag",
+        "Sötét Csillag",
+        "Csillagfúró",
+        "Galaxisölő"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW03"
+    },
+    {
+      "question": "Melyik bolygón éltek a jedik a klónháborúk idején?",
+      "answers": [
+        "Coruscant",
+        "Naboo",
+        "Tatooine",
+        "Mustafar"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW04"
+    },
+    {
+      "question": "Ki volt az Első Rend vezetője az ébredő Erő idején?",
+      "answers": [
+        "Snoke",
+        "Darth Vader",
+        "Tarkin",
+        "Kylo Ren"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW05"
+    },
+    {
+      "question": "Melyik fajba tartozik Yoda?",
+      "answers": [
+        "Ismeretlen faj",
+        "Twi'lek",
+        "Rodiai",
+        "Zabrak"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW06"
+    },
+    {
+      "question": "Ki volt Han Solo legjobb barátja és társa?",
+      "answers": [
+        "Chewbacca",
+        "Lando Calrissian",
+        "Finn",
+        "R2-D2"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW07"
+    },
+    {
+      "question": "Hogy hívják a Mandalóri fő karakterét?",
+      "answers": [
+        "Din Djarin",
+        "Boba Fett",
+        "Jango Fett",
+        "Vizsla"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW08"
+    },
+    {
+      "question": "Ki volt a Sith Nagyúr, aki manipulálta a galaxis politikáját?",
+      "answers": [
+        "Darth Sidious",
+        "Darth Maul",
+        "Darth Bane",
+        "Darth Revan"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW09"
+    },
+    {
+      "question": "Melyik bolygón találjuk meg Anakin Skywalker gyerekkorát?",
+      "answers": [
+        "Tatooine",
+        "Jakku",
+        "Geonosis",
+        "Kamino"
+      ],
+      "board_id": "kGYfw59",
+      "id": "SW10"
+    },
+    {
+      "question": "Melyik sportágban használják a 'büntetődobás' kifejezést?",
+      "answers": [
+        "Kosárlabda",
+        "Tenisz",
+        "Foci",
+        "Jégkorong"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP01"
+    },
+    {
+      "question": "Melyik focista kapta az első Aranylabdát?",
+      "answers": [
+        "Stanley Matthews",
+        "Pelé",
+        "Maradona",
+        "Di Stéfano"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP02"
+    },
+    {
+      "question": "Hány játékos van egy időben a pályán egy röplabdacsapatból?",
+      "answers": [
+        "6",
+        "5",
+        "7",
+        "4"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP03"
+    },
+    {
+      "question": "Melyik ország rendezte a 2016-os olimpiát?",
+      "answers": [
+        "Brazília",
+        "Kína",
+        "Egyesült Királyság",
+        "Japán"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP04"
+    },
+    {
+      "question": "Melyik csapat nyerte a legtöbb Bajnokok Ligája címet?",
+      "answers": [
+        "Real Madrid",
+        "Barcelona",
+        "AC Milan",
+        "Liverpool"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP05"
+    },
+    {
+      "question": "Melyik sportágban híres Michael Phelps?",
+      "answers": [
+        "Úszás",
+        "Atletika",
+        "Kerékpár",
+        "Torna"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP06"
+    },
+    {
+      "question": "Melyik sportágban használnak ütőt és labdát?",
+      "answers": [
+        "Tenisz",
+        "Úszás",
+        "Birkózás",
+        "Box"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP07"
+    },
+    {
+      "question": "Hány percig tart egy futballmérkőzés rendes játékideje?",
+      "answers": [
+        "90 perc",
+        "60 perc",
+        "80 perc",
+        "100 perc"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP08"
+    },
+    {
+      "question": "Hol rendezik minden évben a Wimbledon tenisztornát?",
+      "answers": [
+        "London",
+        "Párizs",
+        "New York",
+        "Melbourne"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP09"
+    },
+    {
+      "question": "Melyik sportágban található a 'touchdown' kifejezés?",
+      "answers": [
+        "Amerikai foci",
+        "Röplabda",
+        "Foci",
+        "Kézilabda"
+      ],
+      "board_id": "CZOtped",
+      "id": "SP10"
+    },
+    {
+      "question": "Melyik nyelvben van a legtöbb anyanyelvi beszélő a világon?",
+      "answers": [
+        "Mandarin",
+        "Spanyol",
+        "Angol",
+        "Hindi"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY01"
+    },
+    {
+      "question": "Melyik nyelvben használják a cyrill ábécét?",
+      "answers": [
+        "Orosz",
+        "Spanyol",
+        "Francia",
+        "Koreai"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY02"
+    },
+    {
+      "question": "Mi az angol 'dog' magyar megfelelője?",
+      "answers": [
+        "Kutya",
+        "Macska",
+        "Ló",
+        "Egér"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY03"
+    },
+    {
+      "question": "Melyik nyelv tartozik a germán nyelvcsaládhoz?",
+      "answers": [
+        "Angol",
+        "Francia",
+        "Olasz",
+        "Finn"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY04"
+    },
+    {
+      "question": "Mi a helyes többes szám angolul: 'child'?",
+      "answers": [
+        "children",
+        "childs",
+        "childen",
+        "childer"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY05"
+    },
+    {
+      "question": "Melyik nyelvben találhatóak ékezetes betűk, például 'á', 'é', 'ö'?",
+      "answers": [
+        "Magyar",
+        "Angol",
+        "Latin",
+        "Olasz"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY06"
+    },
+    {
+      "question": "Melyik nyelv használja a Kanji írásjeleket?",
+      "answers": [
+        "Japán",
+        "Kínai",
+        "Koreai",
+        "Thai"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY07"
+    },
+    {
+      "question": "Mi az 'hola' jelentése spanyolul?",
+      "answers": [
+        "Szia",
+        "Igen",
+        "Köszönöm",
+        "Viszlát"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY08"
+    },
+    {
+      "question": "Melyik nyelv beszélőit hívják 'frankofonoknak'?",
+      "answers": [
+        "Francia",
+        "Német",
+        "Olasz",
+        "Portugál"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY09"
+    },
+    {
+      "question": "Mi a magyar 'kenyér' szó angol fordítása?",
+      "answers": [
+        "bread",
+        "milk",
+        "cheese",
+        "butter"
+      ],
+      "board_id": "9OkzXmT",
+      "id": "NY10"
+    },
+    {
+      "question": "Hol szop ki Jani?",
+      "answers": [
+        "Mindenhol",
+        "Top",
+        "ADC",
+        "Jungle"
+      ],
+      "board_id": "94qvnAk",
+      "id": "SAW0U67",
+      "board": [
+        {
+          "title": "Loldle",
+          "imgURL": "https://cdn.imgchest.com/files/cc0148317ffa.png",
+          "color": "#199455",
+          "id": "94qvnAk",
+          "cards": []
+        }
+      ]
+    },
+    {
+      "question": "Hol jó Jani?",
+      "answers": [
+        "Sehol",
+        "Top",
+        "ADC",
+        "Jungle"
+      ],
+      "board_id": "94qvnAk",
+      "id": "p15w8Zj"
+    }
   ]
 }
