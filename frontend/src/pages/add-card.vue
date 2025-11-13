@@ -74,7 +74,7 @@ function goBack() {
           <input
             v-model="question"
             type="text"
-            placeholder="Pl. Történelem"
+            placeholder="Pl. Kinek van már elege ebből?"
             class="w-full bg-white/20 border-2 border-white/40 text-white text-xl rounded-xl px-4 py-3 outline-none placeholder-white/60 focus:border-cyan-400 focus:bg-white/30 transition"
           />
         </div>
